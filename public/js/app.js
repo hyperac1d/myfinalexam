@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 function x(){
 $.ajax({
-	url: "http://www.omdbapi.com/?t=fast+and+the+furious"
+	url: "https://www.omdbapi.com/?t=fast+and+the+furious"
 }).done(function(res){
 	console.log(res);
 	
@@ -23,7 +23,7 @@ $.ajax({
 http://www.omdbapi.com/?t=2+fast+2+furious
 
 $.ajax({
-	url: "http://www.omdbapi.com/?t=2+fast+2+furious"
+	url: "https://www.omdbapi.com/?t=2+fast+2+furious"
 }).done(function(res){
 	console.log(res);
 	
@@ -32,7 +32,7 @@ $.ajax({
 
 http://www.omdbapi.com/?t=fast+and+the+furious+tokyo+drift
 $.ajax({
-	url: "http://www.omdbapi.com/?t=fast+and+the+furious+tokyo+drift"
+	url: "https://www.omdbapi.com/?t=fast+and+the+furious+tokyo+drift"
 }).done(function(res){
 	console.log(res);
 	
@@ -40,7 +40,7 @@ $.ajax({
 });
 http://www.omdbapi.com/?t=fast+%26+furious
 $.ajax({
-	url: "http://www.omdbapi.com/?t=fast+%26+furious"
+	url: "https://www.omdbapi.com/?t=fast+%26+furious"
 }).done(function(res){
 	console.log(res);
 	
@@ -48,7 +48,7 @@ $.ajax({
 });
 http://www.omdbapi.com/?t=fast+five
 $.ajax({
-	url: "http://www.omdbapi.com/?t=fast+five"
+	url: "https://www.omdbapi.com/?t=fast+five"
 }).done(function(res){
 	console.log(res);
 	
