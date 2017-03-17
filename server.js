@@ -1,4 +1,3 @@
-//server.js
 //require modules
 var express = require('express');
 var path = require('path');
@@ -13,7 +12,7 @@ app.get('/', function(req, res){
   res.sendFile(path.join(__dirname, 'views/app.html'));
 });
 app.get('*', function(req, res){
-  res.status(404).sendFile(path.join(__dirname, 'views/404.html'));
+  res.sendFile(path.join(__dirname, 'views/404.html'));
 });
 //express server listen
 var server = app.listen(app.get('port'), function(){
