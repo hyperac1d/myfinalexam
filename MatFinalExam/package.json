@@ -1,0 +1,19 @@
+{
+  "name": "marcomat",
+  "version": "1.0.0",
+  "description": "myfinalexam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperac1d/myfinalexam.git"
+  },
+  "author": "Mat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyperac1d/myfinalexam/issues"
+  },
+  "homepage": "https://github.com/hyperac1d/myfinalexam#readme"
+}
