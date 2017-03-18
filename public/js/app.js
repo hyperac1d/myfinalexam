@@ -63,18 +63,18 @@ $.ajax({
 
 function createMoviePreviewTemplate(res) {
 	let html = `
-		<div class="movie-template">
+		<div class="movie-template" id="movie-caption">
 			<h1 align="center">${res.Title}
 			</h1>
 			<div class="movie-img">
 				<img src="${res.Poster}"/>
 			</div>
 			<div class="movie-caption">
-				<h3>${res.Year}</h1>
-				<h5>Plot: <p>${res.Plot}</p></h5>
-				<h5>Genre: ${res.Genre}</h5>
-				<h5>Writer: ${res.Writer}</h5>
-				<h5>Actors: ${res.Actors}</h5>
+				<h3>${res.Year}</h3>
+				<h4>Plot: <p>${res.Plot}</p></h4>
+				<h4>Genre: ${res.Genre}</h4>
+				<h4>Writer: ${res.Writer}</h4>
+				<h4>Actors: ${res.Actors}</h4>
 			</div>
 		</div>
 		
