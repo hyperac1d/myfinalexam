@@ -75,6 +75,8 @@ function createMoviePreviewTemplate(res) {
 				<h4>Genre: ${res.Genre}</h4>
 				<h4>Writer: ${res.Writer}</h4>
 				<h4>Actors: ${res.Actors}</h4>
+				<h4>Rated: ${res.Rated}</h4>
+				<h4>Language: ${res.Language}</h4>
 			</div>
 		</div>
 		
