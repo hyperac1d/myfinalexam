@@ -1,3 +1,8 @@
+$('#index').html(`
+	<div class="nav navbar-nav">
+	</div>
+`);
+
 $('#app').html(`
 	<center><div class="loader"></center>
   </div>

@@ -19,3 +19,20 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+audio {
+	display: none;
+}
+
+body {
+	padding-top: 40px;
+}
+.item {
+	border-image: 10px;
+}
+.carousel-caption {
+	font-family: Helvetica;
+}
+
+@import url("bootstrap.min.css");
+@import url("bootstrap-theme.css");
