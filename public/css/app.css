@@ -18,6 +18,14 @@
     height: 120px;
     animation: spin 2s linear infinite;
 }
+.movies {
+    padding-top: 40px;
+    background: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -28,9 +36,7 @@ audio {
 	display: none;
 }
 
-body {
-	padding-top: 40px;
-}
+
 .item {
 	border-image: 10px;
 }
@@ -40,3 +46,5 @@ body {
 
 @import url("bootstrap.min.css");
 @import url("bootstrap-theme.css");
+
+/*body 404html*/
